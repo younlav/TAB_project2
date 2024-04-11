@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(181, 177, 250);
+    height: 100vh;/*페이지 전체를 덮고 있게 변경*/
+}
+.container {
+    display : flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 400px;
+    height: 850px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid black;
+    /* padding : 40px 15px 40px 15px; */
+}
+
+.contents{
+    display: grid;
+    grid-template-columns: 31px 1fr;
+    padding: 40px 15px 40px 15px;
+}
+
+#X_icon {
+    width: 25px;
+    height: 25px;
+    padding : 6px;
+}
+
+#Playlist{
+    font-size: 25px;
+    text-align: center;
+}   
+
+.contents1{
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+#Image_icon{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(235,169,57);
+    padding:70px;
+    border: 2px black solid;
+    border-radius: 15px;
+}
+#Caption1{
+    padding: 0 0 0 20px;
+    display: grid;
+}
+#RandomLove{
+    font-size: 35px;
+    padding-bottom:30px;
+}
+#byDK{
+    font-size:12px;
+}
+
+.contents2{
+    display: flex;
+    padding : 40px 30px;
+}
+
+#button1{
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 5px;
+    padding:13px 25px;
+    border:2px black solid;
+    border-radius: 15px;
+}
+
+#playbutton{
+    width: 30px;
+    height: 30px;
+}
+
+#play{
+    font-size: 20px;
+    margin : 0;
+    padding : 3px 5px 2px 0;
+    font-family:"굴림";
+}
+
+#heartbutton, #plusbutton{
+    width: 17px;
+    height: 17px;
+    border: 2px black solid;
+    margin : 0 0 0 30px;
+    padding : 20px;
+    border-radius: 100%;
+}
+
+.contents3_1 {
+    display: flex;
+    padding : 0 30px 50px 30px;
+
+}
+
+.ColorSquare{
+    width: 50px;
+    height: 50px;
+    border : 2px black solid;
+    border-radius: 5px;
+}
+.sets{
+    padding : 0 0 0 15px;
+    display: grid;
+}
+.title{
+    font-size: 15px;
+    padding-bottom : 15px;
+}
+.comments{
+    font-size : 12px;
+}
+/* colors */
+#red {
+    background-color: rgb(224,55,32);
+}
+#pink {
+    background-color: rgb(241, 196, 203);
+}
+#blue {
+    background-color: rgb(49, 13, 245);
+}
+#gray{
+    background-color: rgb(128,128,128);
+}
